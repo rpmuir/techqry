@@ -1,0 +1,23 @@
+// Place all the styles related to the tqs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* navbar */
+.navbar-primary .navbar { background:#0099ff; border-bottom:none; }
+.navbar-primary .navbar .nav > li > a {color: #ffffff;}
+.navbar-primary .navbar .nav > li > a:hover {color: #fff; background-color: #000066;}
+.navbar-primary .navbar .nav .active > a,.navbar .nav .active > a:hover {color: #fff; background-color: #5d5d69;}
+.navbar-primary .navbar .nav li > a .caret, .tnav .navbar .nav li > a:hover .caret {border-top-color: #fff;border-bottom-color: #fff;}
+.navbar-primary .navbar .nav > li.dropdown.open.active > a:hover {}
+.navbar-primary .navbar .nav > li.dropdown.open > a {color: #fff;background-color: #5d5d69;border-color: #fff;}
+.navbar-primary .navbar .nav > li.dropdown.open.active > a:hover .caret, .tnav .navbar .nav > li.dropdown.open > a .caret {border-top-color: #fff;}
+.navbar-primary .navbar .navbar-brand {color:#fff;}
+.navbar-primary .navbar .nav.pull-right {margin-left: 200; margin-right: 20;}
+.navbar-xs .navbar-primary .navbar { min-height:36px; height: 60px; }
+.navbar-xs .navbar-primary .navbar .navbar-brand{ padding: 0px 12px;font-size: 32px;line-height: 60px; }
+.navbar-xs .navbar-primary .navbar .navbar-nav > li > a {  padding-top: 0px; padding-left: 84px; line-height: 45px; }
+.navbar-sm .navbar-primary .navbar { min-height:40px; height: 60px; }
+.navbar-sm .navbar-primary .navbar .navbar-brand{ padding: 0px 12px;font-size: 16px;line-height: 40px; }
+.navbar-sm .navbar-primary .navbar .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 40px; }
+
+.top-buffer { margin-top:50px; }

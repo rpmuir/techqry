@@ -1,0 +1,2 @@
+module TqsHelper
+end

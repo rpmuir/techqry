@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>engaged|io</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+    <div id="main-container" class="container">
+
+    <%= render 'shared/navigation' %>
+
+
+     <div class="row top-buffer">
+        <div class="col-xs-12">
+
+         <h2>Technical Queries</h2>
+
+     </div>
+
+         <div class="col-xs-2">
+          	
+          	<%= link_to root_path, class: 'btn btn-success' do %>
+  			<i class="glyphicon glyphicon-list-alt"></i>
+			<% end %>
+
+			<%= link_to new_tq_path, class: 'btn btn-success' do %>
+  			<i class="glyphicon glyphicon-plus"></i>
+			<% end %>
+
+        	</div>
+        <div class="col-xs-10">
+
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

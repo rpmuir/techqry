@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tqid:</strong>
+  <%= @tq.tqid %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @tq.client %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @tq.projectname %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @tq.date %>
+</p>
+
+<p>
+  <strong>Impact:</strong>
+  <%= @tq.impact %>
+</p>
+
+<p>
+  <strong>Query:</strong>
+  <%= @tq.query %>
+</p>
+
+
+<%= link_to 'List', root_path, class: 'btn btn-success' %>
+<%= link_to 'Edit', edit_tq_path, class: 'btn btn-success' %>
